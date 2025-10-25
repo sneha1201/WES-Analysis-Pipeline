@@ -1,0 +1,35 @@
+name: wes_pipeline
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  # Python
+  - python=3.9
+  - pandas>=1.0.0
+  
+  # Quality Control
+  - fastqc>=0.11.9
+  - fastp>=0.20.0
+  - multiqc>=1.9
+  - seqkit>=2.0.0
+  
+  # Alignment
+  - bwa>=0.7.17
+  - samtools>=1.10
+  
+  # Variant Calling
+  - gatk4>=4.2.0
+  - bcftools>=1.10
+  
+  # Statistics
+  - rtg-tools>=3.12
+  
+  # Optional but recommended
+  - parallel
+  
+  # Python packages
+  - pip
+  - pip:
+    - pandas>=1.0.0
+
