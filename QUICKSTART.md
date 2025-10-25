@@ -260,8 +260,7 @@ ls -lh ~/references/hg38/*.vcf
 ## Getting Help
 
 - GitHub Issues: https://github.com/yourusername/WES-Analysis-Pipeline/issues
-- Email: your.email@example.com
-
+- Email: snehagoel3142@gmail.com
 ---
 
 Happy analyzing! 🧬
